@@ -1,0 +1,169 @@
+h1 {
+	text-align: center;
+	font-size: 56px;
+	font-family: fantasy;
+	color: green;
+}
+
+h2 {
+	text-align: center;
+	font-size: 42px;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: rgb(232, 244, 230);
+}
+
+
+/* Кнопка с нажатием*/ 
+
+.push_but {  
+  display: inline-block; 
+  padding: 15px;  
+  color: #fff!important; 
+  text-decoration: none!important; 
+  font-weight: bold; margin: 10px; 
+  font-size: 20px; 
+   
+  border-radius: 10px; 
+  -webkit-border-radius: 10px; 
+  -moz-border-radius 10px; 
+  box-shadow: 1px 1px 0 #ccc,  
+  2px 2px 0 #c9c9c9, 
+  3px 4px 0 #bbb, 
+
+  -1px 1px 0 #ccc,  
+  -2px 2px 0 #c9c9c9, 
+  -3px 4px 0 #bbb;  
+} 
+
+.red {background:linear-gradient(top,#f58f99,#bf1e2e); 
+  background:-webkit-linear-gradient(top,#f58f99,#bf1e2e); /* для Chrome и Safari */ 
+  background:-o-linear-gradient(top,#f58f99,#bf1e2e); /* для Opera */ 
+  background:-moz-linear-gradient(top,#f58f99,#bf1e2e); /* для Firefox */ 
+  background:-ms-linear-gradient(top,#f58f99,#bf1e2e); /* для IE10+ */  
+  color: #fff!important; 
+  text-decoration: none!important;} 
+
+.red:hover  
+{ 
+  background:linear-gradient(bottom,#f58f99,#bf1e2e); 
+  background:-webkit-linear-gradient(bottom, #f58f99 5%,#bf1e2e); /* для Chrome и Safari */ 
+  background:-o-linear-gradient(bottom,#f58f99,#bf1e2e);/* для Opera */ 
+  background:-moz-linear-gradient(bottom,#f58f99,#bf1e2e); /* для Firefox */ 
+  background:-ms-linear-gradient(bottom,#f58f99,#bf1e2e); /* для IE10+ */ 
+  text-decoration: none;} 
+   
+.yellow {background:linear-gradient(top,#f4da71,#cca509); 
+  background:-webkit-linear-gradient(top,#f4da71,#cca509); /* для Chrome и Safari */ 
+  background:-o-linear-gradient(top,#f4da71,#cca509); /* для Opera */ 
+  background:-moz-linear-gradient(top,#f4da71,#cca509); /* для Firefox */ 
+  background:-ms-linear-gradient(top,#f4da71,#cca509); /* для IE10+ */  
+  color: #fff!important; 
+  text-decoration: none!important;} 
+
+.yellow:hover  
+{ background:linear-gradient(bottom,#f4da71,#cca509); 
+  background:-webkit-linear-gradient(bottom, #f4da71 5%,#cca509); /* для Chrome и Safari  
+
+*/ 
+  background:-o-linear-gradient(bottom,#f4da71,#cca509); /* для Opera */ 
+  background:-moz-linear-gradient(bottom,#f4da71,#cca509); /* для Firefox */ 
+  background:-ms-linear-gradient(bottom,#f4da71,#cca509); /* для IE10+ */ 
+  text-decoration: none; 
+   
+} 
+push_but:hover { 
+  text-decoration: none; 
+  color: #fff; 
+} 
+
+.push_but:active { 
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+
+inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+
+inset; 
+  -moz-transform: translatey(3px); /* Для Firefox */ 
+  -ms-transform: translatey(3px); /* Для IE */ 
+  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+  -o-transform:translatey(3px); /* Для Opera */ 
+  transform: translatey(3px); 
+}
+
+/* Кнопка с нажатием*/ 
+ 
+.push_but {  
+  display: inline-block; 
+  padding: 15px;  
+  color: #fff!important; 
+  text-decoration: none!important; 
+  font-weight: bold; margin: 10px; 
+  font-size: 20px; 
+   
+  border-radius: 10px; 
+  -webkit-border-radius: 10px; 
+  -moz-border-radius 10px; 
+  box-shadow: 1px 1px 0 #ccc,  
+  2px 2px 0 #c9c9c9, 
+  3px 4px 0 #bbb, 
+ 
+  -1px 1px 0 #ccc,  
+  -2px 2px 0 #c9c9c9, 
+  -3px 4px 0 #bbb;  
+} 
+ 
+.red {background:linear-gradient(top,#f58f99,#bf1e2e); 
+  background:-webkit-linear-gradient(top,#f58f99,#bf1e2e); /* для Chrome и Safari */ 
+  background:-o-linear-gradient(top,#f58f99,#bf1e2e); /* для Opera */ 
+  background:-moz-linear-gradient(top,#f58f99,#bf1e2e); /* для Firefox */ 
+  background:-ms-linear-gradient(top,#f58f99,#bf1e2e); /* для IE10+ */  
+  color: #fff!important; 
+  text-decoration: none!important;} 
+ 
+.red:hover  
+{ 
+  background:linear-gradient(bottom,#f58f99,#bf1e2e); 
+  background:-webkit-linear-gradient(bottom, #f58f99 5%,#bf1e2e); /* для Chrome и Safari */ 
+  background:-o-linear-gradient(bottom,#f58f99,#bf1e2e);/* для Opera */ 
+  background:-moz-linear-gradient(bottom,#f58f99,#bf1e2e); /* для Firefox */ 
+  background:-ms-linear-gradient(bottom,#f58f99,#bf1e2e); /* для IE10+ */ 
+  text-decoration: none;} 
+   
+.yellow {background:linear-gradient(top,#f4da71,#cca509); 
+  background:-webkit-linear-gradient(top,#f4da71,#cca509); /* для Chrome и Safari */ 
+  background:-o-linear-gradient(top,#f4da71,#cca509); /* для Opera */ 
+  background:-moz-linear-gradient(top,#f4da71,#cca509); /* для Firefox */ 
+  background:-ms-linear-gradient(top,#f4da71,#cca509); /* для IE10+ */  
+  color: #fff!important; 
+  text-decoration: none!important;} 
+ 
+.yellow:hover  
+{ background:linear-gradient(bottom,#f4da71,#cca509); 
+  background:-webkit-linear-gradient(bottom, #f4da71 5%,#cca509); /* для Chrome и Safari  
+ 
+*/ 
+  background:-o-linear-gradient(bottom,#f4da71,#cca509); /* для Opera */ 
+  background:-moz-linear-gradient(bottom,#f4da71,#cca509); /* для Firefox */ 
+  background:-ms-linear-gradient(bottom,#f4da71,#cca509); /* для IE10+ */ 
+  text-decoration: none; 
+   
+} 
+push_but:hover { 
+  text-decoration: none; 
+  color: #fff; 
+} 
+ 
+.push_but:active { 
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+ 
+inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+ 
+inset; 
+  -moz-transform: translatey(3px); /* Для Firefox */ 
+  -ms-transform: translatey(3px); /* Для IE */ 
+  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+  -o-transform:translatey(3px); /* Для Opera */ 
+  transform: translatey(3px); 
+}
